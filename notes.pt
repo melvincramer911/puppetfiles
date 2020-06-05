@@ -1,0 +1,13 @@
+./code/environments/production/manifests/site.pp
+./code/environments/production/modules/nginx/manifests/init.pp
+./code/environments/production/modules/nginx/manifests/install.pp
+./code/environments/production/modules/nginx/manifests/service.pp
+./code/environments/production/modules/nginx/manifests/config.pp
+
+
+## find command: cd /etc/puppetlabs/code ; find . -mtime -1 -iwholename   *.pp
+
+
+iscsi -  init site config service install
+
+
