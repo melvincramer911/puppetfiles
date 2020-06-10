@@ -1,0 +1,10 @@
+
+trap read debug
+
+echo "my "
+
+echo "dog"
+
+echo "has"
+
+echo "fleas"
