@@ -11,4 +11,7 @@ chmod 700 ./buildmaster.sh
 curl https://raw.githubusercontent.com/melvincramer911/timfox123/master/puppetMasterCreatewithpdk  >> pdkmodules.sh 
 chmod 700 ./pdkmodules.sh
 
+curl https://raw.githubusercontent.com/melvincramer911/timfox123/master/puppetminionbuild  >> buildminion.sh
+chmod 700 ./buildminion.sh  
+
 
